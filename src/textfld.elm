@@ -52,5 +52,90 @@ view model =
     div []
         [ input [ placeholder "Text to reverse", value model.content, onInput Change ] []
         , div [] [ text (String.reverse model.content) ]
-        , table [ style "border-width" "1" ] [ tr [] [ td [] [ text "o" ] ] ]
+        , table []
+            [ tr []
+                [ td []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                ]
+            , tr
+                []
+                [ td []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                ]
+            , tr
+                []
+                [ td []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                ]
+            , tr
+                []
+                [ td []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                ]
+            , tr
+                []
+                [ td []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                , td
+                    []
+                    [ text "o" ]
+                ]
+            ]
         ]
