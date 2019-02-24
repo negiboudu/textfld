@@ -57,6 +57,34 @@ view model =
                 [ td
                     [ style "border" "solid thin", style "width" "1em" ]
                     []
+                , td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
+                , td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
+                ]
+            , tr [ style "height" "1em" ]
+                [ td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
+                , td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
+                , td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
+                ]
+            , tr [ style "height" "1em" ]
+                [ td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
+                , td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
+                , td
+                    [ style "border" "solid thin", style "width" "1em" ]
+                    []
                 ]
             ]
         ]
