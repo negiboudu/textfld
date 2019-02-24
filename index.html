@@ -4841,6 +4841,8 @@ var elm$html$Html$Attributes$stringProperty = F2(
 			elm$json$Json$Encode$string(string));
 	});
 var elm$html$Html$Attributes$placeholder = elm$html$Html$Attributes$stringProperty('placeholder');
+var elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var elm$html$Html$Attributes$style = elm$virtual_dom$VirtualDom$style;
 var elm$html$Html$Attributes$value = elm$html$Html$Attributes$stringProperty('value');
 var elm$html$Html$Events$alwaysStop = function (x) {
 	return _Utils_Tuple2(x, true);
@@ -4956,7 +4958,11 @@ var author$project$Main$view = function (model) {
 					])),
 				A2(
 				elm$html$Html$table,
-				_List_Nil,
+				_List_fromArray(
+					[
+						A2(elm$html$Html$Attributes$style, 'border', 'solid thin'),
+						A2(elm$html$Html$Attributes$style, 'collapse', 'collapse')
+					]),
 				_List_fromArray(
 					[
 						A2(
@@ -4966,39 +4972,25 @@ var author$project$Main$view = function (model) {
 							[
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil),
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil),
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									]))
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil)
 							])),
 						A2(
 						elm$html$Html$tr,
@@ -5007,39 +4999,25 @@ var author$project$Main$view = function (model) {
 							[
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil),
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil),
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									]))
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil)
 							])),
 						A2(
 						elm$html$Html$tr,
@@ -5048,121 +5026,25 @@ var author$project$Main$view = function (model) {
 							[
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil),
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil),
 								A2(
 								elm$html$Html$td,
-								_List_Nil,
 								_List_fromArray(
 									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									]))
-							])),
-						A2(
-						elm$html$Html$tr,
-						_List_Nil,
-						_List_fromArray(
-							[
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									]))
-							])),
-						A2(
-						elm$html$Html$tr,
-						_List_Nil,
-						_List_fromArray(
-							[
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									])),
-								A2(
-								elm$html$Html$td,
-								_List_Nil,
-								_List_fromArray(
-									[
-										elm$html$Html$text('o')
-									]))
+										A2(elm$html$Html$Attributes$style, 'border', 'solid thin')
+									]),
+								_List_Nil)
 							]))
 					]))
 			]));
