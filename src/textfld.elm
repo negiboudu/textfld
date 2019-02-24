@@ -52,35 +52,10 @@ view model =
     div []
         [ input [ placeholder "Text to reverse", value model.content, onInput Change ] []
         , div [] [ text (String.reverse model.content) ]
-        , table [ style "border" "solid thin", style "collapse" "collapse" ]
-            [ tr []
-                [ td [ style "border" "solid thin" ]
-                    []
-                , td
-                    [ style "border" "solid thin" ]
-                    []
-                , td
-                    [ style "border" "solid thin" ]
-                    []
-                ]
-            , tr []
-                [ td [ style "border" "solid thin" ]
-                    []
-                , td
-                    [ style "border" "solid thin" ]
-                    []
-                , td
-                    [ style "border" "solid thin" ]
-                    []
-                ]
-            , tr []
-                [ td [ style "border" "solid thin" ]
-                    []
-                , td
-                    [ style "border" "solid thin" ]
-                    []
-                , td
-                    [ style "border" "solid thin" ]
+        , table [ style "border" "solid thin", style "border-collapse" "collapse" ]
+            [ tr [ style "height" "1em" ]
+                [ td
+                    [ style "border" "solid thin", style "width" "1em" ]
                     []
                 ]
             ]
